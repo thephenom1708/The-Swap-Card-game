@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            CARD GAME
+        </title>
+        <link href="C:\Users\Kaivalya Mendki\Desktop\kaivalya\Web D\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+            
+		
+        </script>
+        <script src="C:\Users\Kaivalya Mendki\Desktop\kaivalya\Web D\bootstrap\js\bootstrap.min.js">
+            
+		
+        </script>
+        <link rel="stylesheet" href="C:\Users\Kaivalya Mendki\Desktop\kaivalya\Project\card\card.css">
+    </head>
+    
+    <body class="jumbotron">
+        <h1>
+            <marquee>
+                <b>
+                    The Swap Card Game
+                </b>
+            </marquee>
+        </h1>
+        <p>
+            <center>
+              <div class="start">
+                <h3>
+                    Click here to start the game!
+                </h3>
+        </p>
+        <p>
+            <button type="button" class="btn btn-success" id="btn">
+                ENTER
+            </button>
+        </p>
+        </div>
+        <br>
+        <br>
+        <div class="container" id="con1">
+            <p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="i1" src="images.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img id="i2" src="images.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img id="i3" src="images.jpg">
+                    </div>
+                </div>
+                <br>
+                <p>
+                    <button type="button" class="btn btn-primary" id="show">
+                        SHOW CARDS
+                    </button>
+                </p>
+            </p>
+        </div>
+        <div class="container" id="con2">
+            <p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="a" src="" alt="card1">
+                    </div>
+                    <div class="col-md-4">
+                        <img id="b" src="" alt="card2">
+                    </div>
+                    <div class="col-md-4">
+                        <img id="c" src="" alt="card3">
+                    </div>
+                </div>
+                <br>
+                <p>
+                    <button type="button" class="btn btn-primary" id="swap2">
+                        SWAP CARDS
+                    </button>
+                </p>
+            </p>
+        </div> 
+
+         <div class="container" id="con3">
+            <p>
+              <div class="row">
+                    <div class="col-md-4">
+                        <img id="i1" src="images.jpg">
+                        <p>
+                           <label for="usr">Enter the card no:</label>
+                           <input type="text" class="form-control" id="g1" value="1">
+                           <select class="form-control" id="nm1">
+                              <option value="Heart">Heart</option>
+                              <option value="Diamond">Diamond</option>
+                              <option value="Club">Club</option>
+                              <option value="Spade">Spade</option>
+                          </select>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="i2" src="images.jpg">
+                        <p>
+                           <label for="usr">Enter the card no:</label>
+                           <input type="text" class="form-control" id="g2" value="1">
+                           <select class="form-control" id="nm2">
+                              <option value="Heart">Heart</option>
+                              <option value="Diamond">Diamond</option>
+                              <option value="Club">Club</option>
+                              <option value="Spade">Spade</option>
+                          </select>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="i3" src="images.jpg">
+                        <p>
+                           <label for="usr">Enter the card no:</label>
+                           <input type="text" class="form-control" id="g3" value="1">
+                           <select class="form-control" id="nm3">
+                              <option value="Heart">Heart</option>
+                              <option value="Diamond">Diamond</option>
+                              <option value="Club">Club</option>
+                              <option value="Spade">Spade</option>
+                          </select>
+                        </p>
+                    </div>
+                </div>
+            </p>
+            <p class="col-md-12">
+              <button type="submit" class=" btn btn-success" id="sub">SUBMIT</button>
+            </p>
+          </div>
+          <p id="print"><h1><b>
+            
+          </b></h1></p>
+        <script src="card.js">
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.bounce.js"></script>
+        </script>
+    </body>
+
+</html>
